@@ -15,6 +15,7 @@
 - [Masala-CHAI: A Large-Scale SPICE Netlist Dataset for Analog Circuits by Harnessing AI](#masala-chai-a-large-scale-spice-netlist-dataset-for-analog-circuits-by-harnessing-ai)
 - [VeriContaminated: Assessing LLM-Driven Verilog Coding for Data Contamination](#vericontaminated-assessing-llm-driven-verilog-coding-for-data-contamination)
 - [SALAD: Systematic Assessment of Machine Unlearning on LLM-Aided Hardware Design](#salad-systematic-assessment-of-machine-unlearning-on-llm-aided-hardware-design)
+- [Course Project: LLM-Based Verilog Adder Generation and Verification]()
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
 ---
@@ -140,6 +141,29 @@ We present SALAD, the first comprehensive framework for safeguarding LLM-driven 
 
 - 📄 **Paper:** https://arxiv.org/abs/2506.02089
 - 💻 **Code:** https://github.com/DfX-NYUAD/SALAD
+
+---
+
+## Course Project: LLM-Based Verilog Adder Generation and Verification 
+**Project Overview**
+This project is designed to explore the capabilities and limitations of Large Language Models (LLMs) in hardware design, specifically in generating and verifying Verilog code for digital adder circuits. The project consists of two interconnected parts that demonstrate the complete workflow from design generation to verification.
+
+**Project Objectives**
+- Understand how LLMs can interpret/generate H/W description language (HDL) code
+- Practice reverse engineering Verilog designs into natural language specifications
+- Evaluate the accuracy of LLM-generated Verilog code against golden reference designs
+- Learn to leverage LLMs for automated testbench generation
+- Gain hands-on experience with hardware simulation tools (Iverilog)
+- Develop critical analysis skills for comparing synthesizable Verilog architectures
+  
+**Learning Outcomes**
+- Ability to analyze and describe digital circuit architectures in natural language
+- Understanding of different adder architectures and their trade-offs
+- Proficiency in using LLM tools (ChipChat/AutoChip) for hardware design
+- Skills in manual code review and verification of HDL designs
+- Experience with testbench development and internal signal verification
+- Competence in using Iverilog for RTL simulation and debugging
+---
 
 ## Git Submodules (Add / Update / Delete)
 
