@@ -32,3 +32,7 @@
 	path = VeriContaminated
 	url = https://github.com/DfX-NYUAD/VeriContaminated
 	branch = main
+[submodule "LockForge"]
+	path = LockForge
+	url = https://github.com/codesanonymousgit-sudo/LockForge.git
+	branch = main
