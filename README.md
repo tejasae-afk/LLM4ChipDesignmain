@@ -19,6 +19,7 @@
 - [VeriDispatcher: Multi-Model Dispatching through Pre-Inference Difficulty Prediction for RTL Generation Optimization](#veridispatcher-multi-model-dispatching-through-pre-inference-difficulty-prediction-for-rtl-generation-optimization)
 - [Benchmarking Large Language Models for Automated Verilog RTL Code Generation](#benchmarking-large-language-models-for-automated-verilog-rtl-code-generation)
 - [VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](#verireason-reinforcement-learning-with-testbench-feedback-for-reasoning-enhanced-verilog-generation)
+- [Unleashing GHOST: An LLM-Powered Framework for Automated Hardware Trojan Design](#unleashing-ghost-an-llm-powered-framework-for-automated-hardware-trojan-design)
 - [Course Project: LLM-Based Verilog Adder Generation and Verification](#course-project-llm-based-verilog-adder-generation-and-verification)
 - [Git Submodules (Add / Update / Delete)](#git-submodules-add--update--delete)
 
@@ -181,6 +182,15 @@ Inspired by DeepSeek-R1, we introduce VeriReason, a framework integrating superv
 
 - 📄 **Paper:** https://arxiv.org/abs/2505.11849
 - 💻 **Code:** https://github.com/NellyW8/VeriReason
+
+---
+
+## Unleashing GHOST: An LLM-Powered Framework for Automated Hardware Trojan Design
+**Key Idea:**  
+This paper addresses these challenges by proposing GHOST (Generator for Hardware-Oriented Stealthy Trojans), an automated attack framework that leverages Large Language Models (LLMs) for rapid HT generation and insertion.
+
+- 📄 **Paper:** https://arxiv.org/abs/2412.02816
+- 💻 **Code:** https://github.com/NMSU-PEARL/GHOST_benchmarks
 
 ---
 
