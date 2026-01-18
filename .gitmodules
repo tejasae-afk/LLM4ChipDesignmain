@@ -48,10 +48,6 @@
 	path = VeriReason
 	url = https://github.com/NellyW8/VeriReason.git
 	branch = main
-[submodule "TrojanPlayground"]
-	path = TrojanPlayground
-	url = https://github.com/NMSU-PEARL/Hardware-Trojan-Insertion-and-Detection-with-Reinforcement-Learning.git
-	branch = main
 [submodule "GHOST"]
 	path = GHOST
 	url = https://github.com/NMSU-PEARL/GHOST_benchmarks.git
