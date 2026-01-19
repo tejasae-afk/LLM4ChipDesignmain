@@ -7,7 +7,7 @@ GenAI Units In Digital Design Education (GUIDE), is an open courseware repositor
 
 ---
 
-## GUIDE taxonomy
+## Taxonomy: Topic, Subtopic, Unit
 
 | Topic | Subtopic | Unit | Description |
 |-------|----------|------|-------------|
