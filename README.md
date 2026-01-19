@@ -1,5 +1,8 @@
 # Generative AI for Chip Design 
 
+## Abstract
+GenAI Units In Digital Design Education (GUIDE), is an open courseware repository with runnable Google Colab labs. GUIDE organizes materials as topics, subtopics, and units across LLM-aided Register-Transfer Level (RTL) generation, LLM-aided RTL verification, and LLM-aided hardware security. We describe the repository architecture and the standard unit package: slides, short videos, runnable labs, and related papers, together with recommended metadata and student deliverables so instructors can reuse units and grade them consistently.
+
 ## Table of Contents
 - [AutoChip to Generate Functional Verilog](#autochip-to-generate-functional-verilog)
 - [VeriThoughts: Enabling Automated Verilog Code Generation using Reasoning and Formal Verification](#verithoughts-enabling-automated-verilog-code-generation-using-reasoning-and-formal-verification)
