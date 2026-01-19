@@ -3,6 +3,42 @@
 ## Abstract
 GenAI Units In Digital Design Education (GUIDE), is an open courseware repository with runnable Google Colab labs. GUIDE organizes materials as topics, subtopics, and units across LLM-aided Register-Transfer Level (RTL) generation, LLM-aided RTL verification, and LLM-aided hardware security. We describe the repository architecture and the standard unit package: slides, short videos, runnable labs, and related papers, together with recommended metadata and student deliverables so instructors can reuse units and grade them consistently.
 
+![alt text](overview_new.png)
+
+---
+
+## GUIDE taxonomy
+
+| Topic | Subtopic | Unit | Description |
+|-------|----------|------|-------------|
+| **LLM-aided RTL Generation** | RTL Generation from Natural Language | AutoChip | Generate Verilog from a prompt and testbench plus iterative compilation/simulation feedback. |
+| | | ROME | Uses hierarchical prompting to decompose complex designs so smaller open-source LLMs can generate larger Verilog systems with better quality and lower cost. |
+| | | Veritas | Has an LLM generate CNF clauses as a formal functional specification and deterministically converts CNF to Verilog for correctness by construction. |
+| | | PrefixLLM | Represents prefix-adder synthesis as structured text (SPCR) and performs iterative LLM-guided design space exploration to optimize area and delay. |
+| | | VeriDispatcher | Dispatch RTL tasks to LLMs using pre-inference difficulty prediction to improve quality and reduce LLM use cost. |
+| | Finetuned LLMs for RTL Generation | VGen | Fine-tune pre-trained LLMs on Verilog code from GitHub and textbooks and evaluates them with syntax and testbench-based functional checks. |
+| | | VeriThoughts | Provides a formal-verification-based pipeline to build a reasoning-oriented Verilog dataset and to fine-tune LLMs for high-accuracy Verilog generation. |
+| | | VeriReason | A DeepSeek-R1-inspired RTL generation framework that combines supervised fine-tuning with GRPO reinforcement learning and feedback-driven rewards. |
+| | | VeriContaminated | Analyzes data contamination in Verilog benchmarks (VerilogEval, RTLLM) to assess the validity and fairness of SOTA LLM code generation evaluations. |
+| **LLM-aided RTL Verification** | Simulation-based Verification | Testbench Generation | Given the RTL under test and a natural-language description of the golden RTL, it generates comprehensive test patterns and then refines them using feedback from EDA tools to improve coverage and expose bugs. |
+| | | Enhanced Testbench Generation | Starting from the RTL under test and its natural-language description, generate a comprehensive testbench, build a Python golden model to compute outputs, insert self-checking logic, and run simulation end-to-end. |
+| | Formal Verification | RAG-based SVA Generation | Builds a knowledge base from OpenTitan documentation and uses retrieval-augmented generation to produce context-aware SVAs for IP blocks. |
+| | | NSFPG | Security property generator based on natural language processing (NLP). |
+| | | SV Assertions | Utilizing LLMs to generate SystemVerilog assertions from design documentation. |
+| | | Assert-O | Optimization of SystemVerilog assertions using LLMs. |
+| | | Hybrid-NL2SVA | A RAG framework for NL2SVA and a fine-tuning pipeline with a synthetic dataset to train lightweight LLMs to translate natural-language properties into SVAs. |
+| **LLM-aided Hardware Security** | Hardware Attacks | LLMPirate | LLM-driven rewriting to thwart piracy-detection tools. |
+| | | ATTRITION | A reinforcement-learning-based framework that models a realistic adversary to systematically evaluate and evade prior hardware-Trojan detection methods, showing dramatically higher attack success than random-insertion assumptions. |
+| | | GHOST | An automated LLM-based attack framework that generates and inserts stealthy, synthesizable Hardware Trojans into HDL designs, enabling rapid Trojan creation and highlighting detection risks in modern hardware security flows. |
+| | | RTL-Breaker | A framework assessing backdoor attacks on LLM-based HDL generation, analyzing trigger mechanisms and their impact on code quality and security. |
+| | Hardware Defenses | Security Assertions | LLM-generated security assertions from natural-language prompts/comments. |
+| | | NOODLE | A multimodal, risk-aware Trojan detection unit that addresses limited Trojan benchmarks by using GAN-based data augmentation and a multimodal deep learning detector with uncertainty estimates for decision making. |
+| | | TrojanLoC | Use RTL-finetuned LLM embeddings plus lightweight classifiers to detect Trojans, predict types, and localize suspicious lines using TrojanInS dataset. |
+| | | LockForge | A multi-agent LLM framework that automates the translation of logic locking schemes from research papers into executable, validated code. |
+| | | SALAD | An assessment framework using machine unlearning to remove sensitive IP, contaminated benchmarks, and malicious patterns from LLMs without full retraining. |
+
+---
+
 ## Table of Contents
 - [AutoChip to Generate Functional Verilog](#autochip-to-generate-functional-verilog)
 - [VeriThoughts: Enabling Automated Verilog Code Generation using Reasoning and Formal Verification](#verithoughts-enabling-automated-verilog-code-generation-using-reasoning-and-formal-verification)
