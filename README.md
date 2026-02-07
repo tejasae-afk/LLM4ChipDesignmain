@@ -94,6 +94,12 @@ This tool supports hierarchical Verilog generation for complex hardware modules 
 - 📄 **Slides:** [https://github.com/FCHXWH823/LLM4Hardware/blob/main/slides/MLCAD%20ROME%20Presentation.pptx](https://github.com/FCHXWH823/LLM4Hardware/blob/main/slides/MLCAD%20ROME%20Presentation.pptx)
 
 ---
+## DAVE: Deriving Automatically Verilog from English specifications
+**Key Idea:**  
+DAVE uses a fine-tuned GPT-2 model to automatically translate English specifications into Verilog hardware code. Achieving 94.8% accuracy, the model successfully handles both simple and abstract digital design tasks. 
+
+
+---
 
 ## Veritas: Verilog Code Generation from LLM-Generated Conjunctive Normal Form
 **Key Idea:**  
